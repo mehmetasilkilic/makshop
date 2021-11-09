@@ -1,0 +1,41 @@
+@import '/src/assets/scss/breakpoints.scss';
+@import '/src/assets/scss/variables.scss';
+
+.products {
+    width: 80%;
+    margin: 0 auto;
+
+    @include media('<=desktop') {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    h2 {
+        font-size: $font-size-xl;
+        color: $gray;
+        padding: $base-padding;
+    }
+
+    .products-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card-wrapper {
+            margin: 10px 0;
+            width: 16.66%;
+            padding: 0 10px;
+
+            @include media('<=desktop') {
+                width: 25%;
+            }
+    
+            @include media('<=tablet') {
+                width: 33.3%;
+            }
+    
+            @include media('<=phone') {
+                width: 50%;
+            }
+        }     
+    }
+}

@@ -1,0 +1,98 @@
+{
+  "products": [
+  {
+    "id": "1",
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "title": "Black t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "XS",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 29.9
+  },
+  {
+    "id": "2",
+    "image": "https://images.unsplash.com/photo-1608883826989-3904fc50cc45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80",
+    "title": "Gray ceo t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "price": 18.9
+  },
+  {
+    "id": "3",
+    "image": "https://images.unsplash.com/photo-1590999659195-e64a988eaf4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "title": "Black owl t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "price": 14.9
+  },
+  {
+    "id": "4",
+    "image": "https://images.unsplash.com/photo-1626543750227-7686f9bd3e96?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "title": "Purple t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "XL"
+    ],
+    "price": 25.9
+  },
+  {
+    "id": "5",
+    "image": "https://images.unsplash.com/photo-1527534085786-f44cde0659a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    "title": "Black pablo t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "S",
+      "L",
+      "XL",
+      "XLL"
+    ],
+    "price": 10.9
+  },
+  {
+    "id": "6",
+    "image": "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+    "title": "White t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "XL",
+      "XXL"
+    ],
+    "price": 49.9
+  },
+  {
+    "id": "7",
+    "image": "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "title": "Black IY t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 29.9
+  },
+  {
+    "id": "8",
+    "image": "https://images.unsplash.com/photo-1616006897093-5e4635c0de35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "title": "White oversize t-shirt",
+    "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "availableSizes": [
+      "XL",
+      "XXL"
+    ],
+    "price": 79.9
+  }
+]
+}

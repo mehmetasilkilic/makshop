@@ -1,0 +1,102 @@
+@import '/src/assets/scss/variables.scss';
+@import '/src/assets/scss/breakpoints.scss';
+
+.register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper {
+        width: 30%;
+        padding: $base-padding;
+        background: $white;
+
+        @include media('<=desktop') {
+            width: 60%;
+        }
+
+        @include media('<=tablet') {
+            width: 80%;
+        }
+
+        .titleWrapper {
+            display: flex;
+            justify-content: space-around;
+
+            h2 {
+                padding: 0 30px;
+                color: $darkGray;
+                cursor: pointer;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+
+            .reg {
+                border-bottom: 3px solid $gray;
+            }
+        }
+
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: $base-margin;
+
+            input {
+                width: 48%;
+                margin: $base-margin 0;
+                padding: $base-padding;
+                outline: none;
+                border: 1px solid $gray;
+                background: $white;
+
+                &:focus {
+                    border: 1px solid $darkGray;
+                }
+            }
+
+            .regWrapper {
+                width: 100%;
+                margin-top: $base-margin;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                button {
+                    padding: $base-padding;
+                    font-size: $base-font-size;
+                    color: $gray;
+                    background-color: $white;
+                    border: 2px solid $gray;
+                    cursor: pointer;
+                    transition: 0.4;
+
+                    &:disabled{
+                        opacity: 0.3;
+                        cursor: not-allowed;
+                    }
+                    &:hover {
+                        background-color: $gray;
+                        color: $white;
+                    }
+                }
+
+                span {
+                    color: $darkGray;
+                    font-size: $base-font-size;
+                }
+            }
+        }
+    }
+}

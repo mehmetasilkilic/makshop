@@ -1,0 +1,90 @@
+@import '/src/assets/scss/breakpoints.scss';
+@import '/src/assets/scss/variables.scss';
+
+.singleProduct {
+    padding: $base-padding;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+    @include media ('<=desktop') {
+        width: 100%;
+    }
+
+    .route {
+        margin-bottom: $base-margin;
+        color: $darkGray;
+    }
+
+
+    .pageProduct {
+        display: flex;
+        justify-content: space-around;
+    
+        .imgContainer {
+            flex: 1px;
+
+            img {
+                height: 70vh;
+                object-fit: cover;
+            }
+        }
+
+        .infoContainer {
+            flex: 2;
+            padding: 0px $base-padding;
+
+            h1 {
+                font-weight: 200;
+                color: $darkGray;
+            }
+
+            p {
+                margin: $base-margin 0;
+                color: $darkGray;
+            }
+
+            span {
+                font-weight: 100;
+                font-size: $font-size-xl;
+                color: $darkGray;
+            }
+
+            .filterContainer {
+                width: 50%;
+                margin: $base-margin 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                span {
+                    font-weight: 200;
+                    font-size: $font-size-lg;
+                }
+
+                select {
+                    margin-left: $base-margin;
+                    padding: $base-padding;
+                    cursor: pointer;
+                    outline: none;
+                }
+            }
+
+            button {
+                padding: $base-padding 5px;
+                background-color: $gray;
+                font-size: $base-font-size;
+                color: $lightGray;
+                border: 1px solid $gray;
+                border-radius: $base-border-radius;
+                cursor: pointer;
+                transition: opacity 0.4s;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}

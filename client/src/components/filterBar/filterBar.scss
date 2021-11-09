@@ -1,0 +1,31 @@
+@import '/src/assets/scss/variables.scss';
+
+.filterBar {
+    display: flex;
+    justify-content: space-between;
+    padding: $base-padding;
+    margin: 0 $base-margin;
+    border-bottom: 1px solid $gray;
+    color: $gray;
+    font-size: $font-size-md;
+
+    .filter-sort, .filter-size {
+        
+        select {
+            margin-left: 10px;
+            cursor: pointer;
+            padding: 5px;
+            border: none;
+            background-color: $gray;
+            border-radius: 10px;
+            outline: none;
+            color: $lightGray;
+            transition: 0.3s;
+            
+            &:hover, &:focus {
+                opacity: 0.9;
+            }
+
+        }
+    }
+}

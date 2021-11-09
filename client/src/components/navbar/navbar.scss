@@ -1,0 +1,80 @@
+@import '/src/assets/scss/variables.scss';
+@import '/src/assets/scss/breakpoints.scss';
+
+.navbar {
+    height: 60px;
+    background-color: $darkGray;
+
+    .wrapper {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+            @include media('<=tablet') {
+                display: none;
+            }
+
+            .language {
+                font-size: 14px;
+                cursor: pointer;
+                color: white;
+            }
+
+            .searchContainer {
+                border: 0.5px solid $leSand;
+                background-color: $leSand;
+                border-radius: $base-border-radius;
+                display: flex;
+                align-items: center;
+                margin-left: 25px;
+                padding: 5px;
+
+                input {
+                    border: none;
+                    background-color: $leSand;
+                    outline: none;  
+                    color: $leDarkPink;
+                }
+            }
+        }
+
+        .center {
+            flex: 1;
+            text-align: center;
+
+            @include media('<=tablet') {
+                text-align: left;
+            }
+
+            .logo {
+                font-weight: bold;
+                color: $leSand;
+            }
+        }
+
+        .right {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .menuItem {
+                font-size: 14px;
+                cursor: pointer;
+                color: $leSand;
+                margin-left: 25px;
+                transition: opacity 0.4s;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

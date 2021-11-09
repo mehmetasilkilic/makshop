@@ -1,0 +1,67 @@
+@import '/src/assets/scss/variables.scss';
+@import '/src/assets/scss/breakpoints.scss';
+
+.newsletter {
+    margin-top: $base-margin;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 4px solid $leSand;
+    background-color: $gray;
+
+    @include media('<=tablet') {
+        max-height: 250px;
+    }
+
+    @include media('<=phone') {
+        max-height: 150px;
+    }
+
+    .title {
+        font-size: 3.8vw;
+        margin-bottom: $base-margin;
+        color: $leSand;
+    }
+
+    .desc {
+        font-size: 2vw;
+        font-weight: 300;
+        margin-bottom: $base-margin;
+        color: $leSand;
+    }
+
+    .inputContainer {
+        width: 50%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        @include media('<=phone') {
+            height: 30px;
+        }
+
+        input {
+            border: none;
+            flex: 8;
+            padding-left: $base-padding;
+            background-color: $lightGray;
+            outline: none;
+        }
+
+        button {
+            flex: 1;
+            background-color: $leSand;
+            font-size: $base-font-size;
+            color: $lightGray;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.4s;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}

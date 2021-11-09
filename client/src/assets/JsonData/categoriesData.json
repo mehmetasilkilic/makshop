@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1615122514692-bfea4a7aa204?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+        "title": "SPORTSWEAR",
+        "cat": "women"
+    },
+    {
+        "id": 2,
+        "img": "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+        "title": "SHIRT STYLE",
+        "cat": "shoes"
+    },
+    {
+        "id": 3,
+        "img": "https://images.unsplash.com/photo-1572009283538-2fce2d2a1909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "title": "LOUNGEWEAR LOVE",
+        "cat": "jackets"
+    }
+]
